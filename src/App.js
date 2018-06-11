@@ -6,11 +6,13 @@ import CheckBox from './CheckBox';
 class App extends Component {
   render() {
     return (
-      <CheckBox>
-        <CheckBox.CheckBoxButton />
-        <CheckBox.Checked>Cb is Checked</CheckBox.Checked>
-        <CheckBox.UnChecked>Cb is UnChecked</CheckBox.UnChecked>
-      </CheckBox>
+      <div className="checkbox">
+        <CheckBox>
+          <CheckBox.CheckBoxButton />
+          <CheckBox.Checked>Cb is Checked</CheckBox.Checked>
+          <CheckBox.UnChecked>Cb is UnChecked</CheckBox.UnChecked>
+        </CheckBox>
+      </div>
     );
   }
 }
